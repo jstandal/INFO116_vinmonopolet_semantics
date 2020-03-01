@@ -1,0 +1,2338 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet">
+    <Prefix name="" IRI="http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Akevitt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aromatisert_vin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barley_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brown_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drikkbar_veske"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Druebrennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frankrike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruktbrennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruktvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hveteøl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hvit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#India_pale_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Klosterstil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Likør"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lys_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lys_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Madeira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mjød"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musserende_vin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mørk_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nøytral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perlende_vin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produsent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosévin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rød"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saison_farmhouse_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scotch_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spesial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surøl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sverige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sør-Afrika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tyskland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vermut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter_&amp;_stout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red/amber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fraPlass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#harProdusert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#harSmak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#passerTil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produsertAv"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harAlkoholProsent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harEmbalasje"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harFarge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harPris"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harSukker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harSyre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harTilgjengelighet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harUtvalg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harVolum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harÅrgang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apertiff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aust-agder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barranco_Oscuro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beiras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bordeaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burgund"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#California"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catalonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Central_Valley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cognac_Trandisjonell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#De_Luze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duoro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fisk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grønnsaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hordaland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mendoza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Piemonte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhone_Sør"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rioja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosmersholm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sicilia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Småvilt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Storfe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Storvilt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Svin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Absolut_Company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toscana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veneto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Victoria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeArgentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeAustralia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeChile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeFrankrike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeItalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeJapan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigePortugal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeSpania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeSverige"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeTyskland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#øvrigeUSA"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Akevitt"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aromatisert_vin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barley_wine"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brennevin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brown_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Druebrennevin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frankrike"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruktbrennevin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruktvin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genever"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hveteøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hvit"/>
+        <Class IRI="#Perlende_vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India_pale_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italia"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Klosterstil"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Likør"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lys_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lys_lager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madeira"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mjød"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musserende_vin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mørk_lager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norge"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nøytral"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perlende_vin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rom"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosé"/>
+        <Class IRI="#Perlende_vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosévin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rød"/>
+        <Class IRI="#Perlende_vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sake"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scotch_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sider"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spania"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spesial"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sverige"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sør-Afrika"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tyskland"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USA"/>
+        <Class IRI="#Plass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vermut"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisky"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Øl"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter_&amp;_stout"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red/amber"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Akevitt"/>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Bitter"/>
+        <Class IRI="#Druebrennevin"/>
+        <Class IRI="#Fruktbrennevin"/>
+        <Class IRI="#Genever"/>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Likør"/>
+        <Class IRI="#Nøytral"/>
+        <Class IRI="#Rom"/>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Whisky"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Chile"/>
+        <Class IRI="#Frankrike"/>
+        <Class IRI="#Italia"/>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Spania"/>
+        <Class IRI="#Sør-Afrika"/>
+        <Class IRI="#Tyskland"/>
+        <Class IRI="#USA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aromatisert_vin"/>
+        <Class IRI="#Brennevin"/>
+        <Class IRI="#Fruktvin"/>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Madeira"/>
+        <Class IRI="#Mjød"/>
+        <Class IRI="#Musserende_vin"/>
+        <Class IRI="#Perlende_vin"/>
+        <Class IRI="#Portvin"/>
+        <Class IRI="#Rosévin"/>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Sake"/>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Sider"/>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Vermut"/>
+        <Class IRI="#Øl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barley_wine"/>
+        <Class IRI="#Brown_ale"/>
+        <Class IRI="#Hveteøl"/>
+        <Class IRI="#India_pale_ale"/>
+        <Class IRI="#Klosterstil"/>
+        <Class IRI="#Lys_ale"/>
+        <Class IRI="#Lys_lager"/>
+        <Class IRI="#Mørk_lager"/>
+        <Class IRI="#Pale_ale"/>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <Class IRI="#Scotch_ale"/>
+        <Class IRI="#Spesial"/>
+        <Class IRI="#Surøl"/>
+        <Class IRI="#Porter_&amp;_stout"/>
+        <Class IRI="#Red/amber"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hvit"/>
+        <Class IRI="#Rosé"/>
+        <Class IRI="#Rød"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Madeira"/>
+        <Class IRI="#Portvin"/>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Vermut"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Vodka"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#India_pale_ale"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Akevitt"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Apertiff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Norge"/>
+        <NamedIndividual IRI="#Aust-agder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#Barranco_Oscuro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Portugal"/>
+        <NamedIndividual IRI="#Beiras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitter"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Bordeaux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Burgund"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#USA"/>
+        <NamedIndividual IRI="#California"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spania"/>
+        <NamedIndividual IRI="#Catalonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chile"/>
+        <NamedIndividual IRI="#Central_Valley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Cognac_Trandisjonell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#De_Luze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Druebrennevin"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Dessert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Portugal"/>
+        <NamedIndividual IRI="#Duoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Grønnsaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mørk_lager"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#India_pale_ale"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mørk_lager"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lys_lager"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Norge"/>
+        <NamedIndividual IRI="#Hordaland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Loire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chile"/>
+        <NamedIndividual IRI="#Maipo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Argentina"/>
+        <NamedIndividual IRI="#Mendoza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italia"/>
+        <NamedIndividual IRI="#Piemonte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Provence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#Rhone_Sør"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spania"/>
+        <NamedIndividual IRI="#Rioja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#Rosmersholm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Argentina"/>
+        <NamedIndividual IRI="#Salta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italia"/>
+        <NamedIndividual IRI="#Sicilia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Australia"/>
+        <NamedIndividual IRI="#South_Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsent"/>
+        <NamedIndividual IRI="#The_Absolut_Company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italia"/>
+        <NamedIndividual IRI="#Toscana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spania"/>
+        <NamedIndividual IRI="#Valencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italia"/>
+        <NamedIndividual IRI="#Veneto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Australia"/>
+        <NamedIndividual IRI="#Victoria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Argentina"/>
+        <NamedIndividual IRI="#øvrigeArgentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Australia"/>
+        <NamedIndividual IRI="#øvrigeAustralia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chile"/>
+        <NamedIndividual IRI="#øvrigeChile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Frankrike"/>
+        <NamedIndividual IRI="#øvrigeFrankrike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italia"/>
+        <NamedIndividual IRI="#øvrigeItalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Japan"/>
+        <NamedIndividual IRI="#øvrigeJapan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Norge"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Portugal"/>
+        <NamedIndividual IRI="#øvrigePortugal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spania"/>
+        <NamedIndividual IRI="#øvrigeSpania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sverige"/>
+        <NamedIndividual IRI="#øvrigeSverige"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tyskland"/>
+        <NamedIndividual IRI="#øvrigeTyskland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#USA"/>
+        <NamedIndividual IRI="#øvrigeUSA"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Apertiff"/>
+        <NamedIndividual IRI="#Aust-agder"/>
+        <NamedIndividual IRI="#Barranco_Oscuro"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#Beiras"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <NamedIndividual IRI="#Bordeaux"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <NamedIndividual IRI="#Burgund"/>
+        <NamedIndividual IRI="#California"/>
+        <NamedIndividual IRI="#Catalonia"/>
+        <NamedIndividual IRI="#Central_Valley"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+        <NamedIndividual IRI="#Cognac_Trandisjonell"/>
+        <NamedIndividual IRI="#De_Luze"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <NamedIndividual IRI="#Dessert"/>
+        <NamedIndividual IRI="#Duoro"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <NamedIndividual IRI="#Fisk"/>
+        <NamedIndividual IRI="#Grønnsaker"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <NamedIndividual IRI="#Hordaland"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+        <NamedIndividual IRI="#Loire"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+        <NamedIndividual IRI="#Maipo"/>
+        <NamedIndividual IRI="#Mendoza"/>
+        <NamedIndividual IRI="#Ost"/>
+        <NamedIndividual IRI="#Piemonte"/>
+        <NamedIndividual IRI="#Provence"/>
+        <NamedIndividual IRI="#Rhone_Sør"/>
+        <NamedIndividual IRI="#Rioja"/>
+        <NamedIndividual IRI="#Rosmersholm"/>
+        <NamedIndividual IRI="#Salta"/>
+        <NamedIndividual IRI="#Sicilia"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+        <NamedIndividual IRI="#Småvilt"/>
+        <NamedIndividual IRI="#South_Australia"/>
+        <NamedIndividual IRI="#Storfe"/>
+        <NamedIndividual IRI="#Storvilt"/>
+        <NamedIndividual IRI="#Svin"/>
+        <NamedIndividual IRI="#The_Absolut_Company"/>
+        <NamedIndividual IRI="#Toscana"/>
+        <NamedIndividual IRI="#Valencia"/>
+        <NamedIndividual IRI="#Veneto"/>
+        <NamedIndividual IRI="#Victoria"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <NamedIndividual IRI="#øvrigeArgentina"/>
+        <NamedIndividual IRI="#øvrigeAustralia"/>
+        <NamedIndividual IRI="#øvrigeChile"/>
+        <NamedIndividual IRI="#øvrigeFrankrike"/>
+        <NamedIndividual IRI="#øvrigeItalia"/>
+        <NamedIndividual IRI="#øvrigeJapan"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+        <NamedIndividual IRI="#øvrigePortugal"/>
+        <NamedIndividual IRI="#øvrigeSpania"/>
+        <NamedIndividual IRI="#øvrigeSverige"/>
+        <NamedIndividual IRI="#øvrigeTyskland"/>
+        <NamedIndividual IRI="#øvrigeUSA"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <NamedIndividual IRI="#øvrigeSverige"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <NamedIndividual IRI="#California"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Aust-agder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Rosmersholm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Barranco_Oscuro"/>
+        <NamedIndividual IRI="#øvrigeSpania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#øvrigeSpania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <NamedIndividual IRI="#Barranco_Oscuro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <NamedIndividual IRI="#øvrigeTyskland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <NamedIndividual IRI="#Veneto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Rhone_Sør"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+        <NamedIndividual IRI="#Ch._de_Roquefort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#De_Luze"/>
+        <NamedIndividual IRI="#Cognac_Trandisjonell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harProdusert"/>
+        <NamedIndividual IRI="#De_Luze"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <NamedIndividual IRI="#Cognac_Trandisjonell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <NamedIndividual IRI="#De_Luze"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <NamedIndividual IRI="#Burgund"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harProdusert"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#Apertiff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#Dessert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <NamedIndividual IRI="#Apertiff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produsertAv"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <NamedIndividual IRI="#Hansa_Borg_Bryggerier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <NamedIndividual IRI="#California"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#The_Absolut_Company"/>
+        <NamedIndividual IRI="#øvrigeSverige"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <NamedIndividual IRI="#Toscana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fraPlass"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+        <NamedIndividual IRI="#øvrigeNorge"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal>Vannklar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">332.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal>Basisutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal>Middels dyo gyllengul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">139.50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#AleSmith_IPA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal>Middels dyp gyllen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">429.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal>Kirsebærrød</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSyre"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harÅrgang"/>
+        <NamedIndividual IRI="#Barranco_Oscuro_Rubaiyat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal>Klar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">224.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Bitter_Truth_Tonic_Bitters"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal>Klar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">399.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Bottega_Bacûr_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal>Dyp rød</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">179.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSyre"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harÅrgang"/>
+        <NamedIndividual IRI="#Ch._Roquefort_Gueule_de_Loup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">559.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#De_Luze_V.S."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal>Lys burgunderrød</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">549.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSyre"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harÅrgang"/>
+        <NamedIndividual IRI="#Fanny_Sabre_Volnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal>Dypt gyllen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">42.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal>Tilleggsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Hansa_Ekstra_Vellagret_Julebrygg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal>Boks med pant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal>Middels dyo gyllengul</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">49.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal>Basisutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Hansa_IPA_Ekstra_Spesial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal>Mørk dyp brungyllen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal>Tilleggsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Hansa_Juleøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <Literal>Boks med pant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Hansa_Stekøl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal>Dyp rød</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">819.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSyre"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harÅrgang"/>
+        <NamedIndividual IRI="#Hirsch_East_Ridge_Pinot_Noir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harEmbalasje"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal>Glass</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harFarge"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal>Dyp rød</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harPris"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">479.00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSukker"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harSyre"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harUtvalg"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal>Bestillingsutvalget</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harVolum"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harÅrgang"/>
+        <NamedIndividual IRI="#Villa_Antinori"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#harProdusert"/>
+        <ObjectProperty IRI="#produsertAv"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#passerTil"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fraPlass"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#harProdusert"/>
+        <Class IRI="#Produsent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Mat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produsertAv"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fraPlass"/>
+        <Class IRI="#Plass"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#harProdusert"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Mat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produsertAv"/>
+        <Class IRI="#Produsent"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#harVolum"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harEmbalasje"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harFarge"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harPris"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harSukker"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harSyre"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harTilgjengelighet"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harUtvalg"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harVolum"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harÅrgang"/>
+        <Class IRI="#Drikkbar_veske"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#harAlkoholProsent"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harEmbalasje"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harFarge"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harPris"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harSukker"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harSyre"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harTilgjengelighet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harUtvalg"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harVolum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harÅrgang"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AleSmith_IPA</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/USA/AleSmith-IPA/p/454601</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ankerdram_Aquavit</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Norge/Ankerdram-Aquavit/p/9192901</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Argentina</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Argentina/c/argentina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Australia</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Australia/c/australia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Barranco_Oscuro_Rubaiyat</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Spania/Barranco-Oscuro-Rubaiyat-2013/p/267001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bitter_Truth_Tonic_Bitters</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Tyskland/Bitter-Truth-Tonic-Bitters/p/7338504</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bottega_Bacûr_Gin</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Italia/Bottega-Bacûr-Gin/p/10387602</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ch._Roquefort_Gueule_de_Loup</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Frankrike/Ch-Roquefort-Gueule-de-Loup/p/514201</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chile</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Chile/c/chile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#De_Luze</IRI>
+        <Literal>Produsent av alkoholholdig drikkevarer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#De_Luze_V.S.</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Frankrike/De-Luze-V-S-/p/5713201</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drikkbar_veske</IRI>
+        <Literal>Tar for seg drikkbare vesker solgt av Vinmonopolet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fanny_Sabre_Volnay</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Producenter/Fanny-Sabre/Fanny-Sabre-Volnay-2017/p/1694601</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Frankrike</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Frankrike/c/frankrike</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hansa_Ekstra_Vellagret_Julebrygg</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Norge/Hansa-Ekstra-Vellagret-Julebrygg/p/896402</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hansa_IPA_Ekstra_Spesial</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Norge/Hansa-IPA-Ekstra-Spesial/p/3846002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hansa_Juleøl</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Norge/Hansa-Juleøl/p/3535402</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hansa_Stekøl</IRI>
+        <Literal>https://www.vinmonopolet.no/vmp/Land/Norge/Hansa-Sterkøl/p/1385002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Italia</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Italia/c/italia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Japan</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Japan/c/japan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mat</IRI>
+        <Literal>Matgrupper som går godt i lag med ulike alkoholholdig- og ikkealkoholholdige vesker.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Norge</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Norge/c/norge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plass</IRI>
+        <Literal>Gruppe med land som inneholder distrikter som instanser.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Portugal</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Portugal/c/portugal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spania</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Spania/c/spania</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sør-Afrika</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Sør-Afrika/c/sør-afrika</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tyskland</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Tyskland/c/tyskland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#USA</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/USA/c/usa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fraPlass</IRI>
+        <Literal>Knytter ulike land og distrikter til produsenter og drikkbare vesker.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harAlkoholProsent</IRI>
+        <Literal>Alkohol innhold oppgitt i prosent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harEmbalasje</IRI>
+        <Literal>Tar for seg hvilken embalasjetype vesken kommer i.
+Eksempel:
+
+- Papp
+- Plast
+- Glass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harFarge</IRI>
+        <Literal>Tar for seg hvilken farge en veske har. 
+Eksempel: 
+
+- Blek_gul
+- Middels_dyp_strågul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harPris</IRI>
+        <Literal>Pris for enhet oppgitt i norske kroner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harSukker</IRI>
+        <Literal>Sukkerinnhold oppgitt i gram per liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harSyre</IRI>
+        <Literal>Syreinnhold oppgitt i gram per liter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harTilgjengelighet</IRI>
+        <Literal>Beskriver hvordan tilgjengeligheten til en vare er.
+For eksempel:
+
+- Kan bestilles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harVolum</IRI>
+        <Literal>Volum oppgitt i centiliter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#harÅrgang</IRI>
+        <Literal>Tar for seg hvilket år vesken er produsert.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#passerTil</IRI>
+        <Literal>En egenskap som kobler de ulike matgruppene til de drikkbare veskene som går gått ilag.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Øl</IRI>
+        <Literal>Hovedgruppe for Øl, med undergrupper med ulike typer øl.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeArgentina</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Argentina/c/argentina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeAustralia</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Australia/c/australia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeChile</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Chile/c/chile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeFrankrike</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Frankrike/c/frankrike</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeItalia</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Italia/c/italia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeJapan</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Japan/c/japan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeNorge</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Norge/c/norge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigePortugal</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Portugal/c/portugal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#øvrigeSpania</IRI>
+        <Literal>https://www.vinmonopolet.no/Land/Spania/c/spania</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,79 @@
+//Tilgjengelig i alle vinmonopolet butikker//
+
+PREFIX alko: <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#>
+
+select ?Name ?Pris ?Volum
+where{
+	?Name alko:harUtvalg "Basisutvalget".
+	?Name alko:harPris ?Pris.
+	?Name alko:harVolum ?Volum
+}
+ORDER BY ?Pris
+
+
+//Studenten//
+
+PREFIX alko: <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#>
+
+select ?Name ?Alkoprosent ?Pris ?Volum ?PrisPrVolum
+where{
+	?Name alko:harEmbalasje "Glass".
+	?Name alko:harAlkoholProsent ?Alkoprosent.
+	?Name alko:harPris ?Pris.
+	?Name alko:harVolum ?Volum.
+	BIND(?Pris / ?Volum AS ?PrisPrVolum).
+	FILTER (?Alkoprosent > 30 && ?Pris < 500)
+}
+ORDER BY ?Pris
+
+
+//Går til maten//
+
+PREFIX alko: <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#>
+
+select ?Name ?Pris ?Volum ?Alkoprosent ?Farge ?Utvalg 
+where{
+	?Name a alko:Rødvin.
+	?Name alko:passerTil <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#Svin>.
+	?Name alko:harAlkoholProsent ?Alkoprosent.
+	?Name alko:harPris ?Pris.
+	?Name alko:harVolum ?Volum.
+	?Name alko:harFarge ?Farge.
+	?Name alko:harUtvalg ?Utvalg.
+	FILTER (?Utvalg = "Bestillingsutvalget")
+}
+ORDER BY ?Pris
+
+
+//Vin snobben//
+
+PREFIX alko: <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#>
+
+select ?Name ?Pris ?Volum ?Alkoprosent ?Årgang ?Utvalg 
+where{
+	?Name a alko:Rødvin.
+	?Name alko:fraPlass <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#øvrigeSpania>.
+	?Name alko:harPris ?Pris.
+	?Name alko:harAlkoholProsent ?Alkoprosent.
+	?Name alko:harÅrgang ?Årgang.
+	?Name alko:harUtvalg ?Utvalg.
+	?Name alko:harVolum ?Volum.
+	?Name alko:harSyre ?Syre
+	FILTER (?Årgang < 2014 && ?Årgang != 1999 && ?Syre <= 6)
+}
+ORDER BY ?Pris
+
+
+//Lokalt bryggeri//
+
+PREFIX alko: <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#>
+
+select ?Name ?Pris ?Volum ?Alkoprosent ?Utvalg 
+where{
+	?Name alko:produsertAv <http://www.semanticweb.org/info116/ontologies/2019/10/vinmonopolet#Hansa_Borg_Bryggerier>.
+	?Name alko:harPris ?Pris.
+	?Name alko:harVolum ?Volum.
+	?Name alko:harAlkoholProsent ?Alkoprosent.
+	?Name alko:harUtvalg ?Utvalg.
+}
+ORDER BY ?Pris
